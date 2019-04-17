@@ -12,6 +12,7 @@
 		221292822253AEFF00FBAC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221292802253AEFF00FBAC83 /* Main.storyboard */; };
 		221292842253AF0200FBAC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221292832253AF0200FBAC83 /* Assets.xcassets */; };
 		221292872253AF0200FBAC83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221292852253AF0200FBAC83 /* LaunchScreen.storyboard */; };
+		2216D6D82267804400F757E9 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216D6D72267804400F757E9 /* UserDataService.swift */; };
 		22263ECF2264BF670021D3BB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22263ECE2264BF670021D3BB /* AuthService.swift */; };
 		222E430C225B2DBB001BB582 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222E430B225B2DBB001BB582 /* ChatVC.swift */; };
 		222E430E225B2DEB001BB582 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222E430D225B2DEB001BB582 /* ChannelVC.swift */; };
@@ -32,6 +33,7 @@
 		221292832253AF0200FBAC83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221292862253AF0200FBAC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221292882253AF0200FBAC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2216D6D72267804400F757E9 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		22263ECE2264BF670021D3BB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		222E430B225B2DBB001BB582 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		222E430D225B2DEB001BB582 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				22263ECE2264BF670021D3BB /* AuthService.swift */,
+				2216D6D72267804400F757E9 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				222E430E225B2DEB001BB582 /* ChannelVC.swift in Sources */,
 				220DCC1722660E7A0041C07F /* RoundedButton.swift in Sources */,
 				222E430C225B2DBB001BB582 /* ChatVC.swift in Sources */,
+				2216D6D82267804400F757E9 /* UserDataService.swift in Sources */,
 				2248C0F6225CB5A90065153A /* CreateAccountVC.swift in Sources */,
 				22263ECF2264BF670021D3BB /* AuthService.swift in Sources */,
 				2248C0F4225CB2590065153A /* LoginVC.swift in Sources */,
