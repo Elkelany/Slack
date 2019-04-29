@@ -23,6 +23,11 @@ class ChatVC: UIViewController {
         // Check for the forced unwrapping of tapGestureRecognizer
         self.view.addGestureRecognizer((self.revealViewController()?.tapGestureRecognizer())!)
         
+        if AuthService.instance.isLoggedIn {
+            AuthService.instance.findUserByEmail { (_) in
+                NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
+            }
+        }
     }
 
 }
