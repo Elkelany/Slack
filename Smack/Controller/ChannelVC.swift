@@ -11,7 +11,6 @@ import UIKit
 class ChannelVC: UIViewController {
     
     // Outlets
-    
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var userImg: CircleImage!
     @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {}
